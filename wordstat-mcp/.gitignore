@@ -1,0 +1,15 @@
+# Секреты
+.env
+
+# Юзерские данные: SQLite (автосоздание)
+app/data/
+
+# Юзерские артефакты: XLSX-сборки и отчёты для Директа
+exports/*.xlsx
+exports/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
