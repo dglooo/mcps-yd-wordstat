@@ -6,7 +6,8 @@ description: Яндекс Директ (кампании, группы, объя
 # Директ и Wordstat через avadge
 
 MCP `avadge` показывает только `search_tools`, `describe_tool`, `call_tool`.
-Порядок: `search_tools("кампании")` или `search_tools("yd_campaigns")` →
+Порядок: `search_tools("campaigns")` (описания `yd_*` английские: ищи по-английски
+или префиксом `yd_`; `wordstat_*` находятся и по-русски) →
 `describe_tool(name)` → `call_tool(name=…, arguments={…})`. По кругу не искать.
 
 ## Директ (`yd_*`)
